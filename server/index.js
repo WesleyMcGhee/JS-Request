@@ -41,6 +41,7 @@ app.post('/food', (req, res) => {
     console.log(req);
 })
 
+
 app.listen(port, () => {
   console.log(`Lab server listening at http://localhost:${port}`)
 })
